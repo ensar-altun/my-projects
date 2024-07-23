@@ -1,0 +1,1 @@
+These are my old projects. Most complex one is afet-platformu. It has a simple rest api for data security purposes. The rest of these projects are just a few templates I was having lots of bugs while working with them.

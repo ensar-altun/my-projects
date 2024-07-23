@@ -1,0 +1,3 @@
+<?
+print "hello mother fucker";
+?>

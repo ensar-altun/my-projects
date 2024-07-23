@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Header">
+        
+        <h1 class="Had">
+            Mustafa Ensar Altun
+        </h1>
+    
+    </div>
+    <div class="Navigation">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="hakkimda.html">Hakkımda</a>
+        <a href="project.html">Projeler</a>
+        <a href="iletisim.html">İletişim</a>
+        
+    </div>
+    <div class="konteynir">
+        <!-- İletişim Formuna Girilen Değerlere erişmek için:
+                email:denemehesabi123@gmail.com
+                password:hesapsifresi123
+                bilgilerini kullanarak bu form için oluşturduğum e postaya erişebilirsiniz
+        -->
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <h2>İletişim Formu</h2><br>
+            
+            <input type="hidden" name="access_key" value="d2ec3e7c-2b3f-4204-9c2a-dd792b28bacd">
+            <label for="name">İsim:</label>
+            <input type="text" name="name"  id="name" placeholder="Adınızı Giriniz" required>
+            <label for="email">E-Posta:</label>
+            <input type="email"name="email"   id="email" placeholder="E-Posta Adresinizi Giriniz" required>
+            <label for="phone">Telefon:</label>
+            <input type="text" name="phone"  id="phone" placeholder="Telefon Numaranızı Giriniz" required>
+            <label for="message">Mesajınız:</label>
+            <textarea  id="message" name="message" rows="4" placeholder="Size Nasıl Yardımcı Olabiliriz?"></textarea>
+            <button type="submit">Gönder</button><br><br>
+        </form>
+
+    </div>
+
+
+    <footer>
+        @2024 Mustafa Ensar Altun
+    </footer>
+
+</body>
+</html>
