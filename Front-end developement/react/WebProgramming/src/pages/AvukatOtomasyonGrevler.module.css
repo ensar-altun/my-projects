@@ -1,0 +1,110 @@
+.grevler {
+  height: 39px;
+  position: relative;
+  font-weight: 800;
+  display: flex;
+  align-items: flex-end;
+}
+.taskHeader,
+.taskTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.taskHeader {
+  background-color: var(--color-white);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 7.5px var(--padding-3xs) var(--padding-87xl-5);
+  box-sizing: border-box;
+  gap: 50.2px;
+  max-width: 100%;
+}
+.mainContent {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-38xl) 0 0;
+  max-width: calc(100% - 341px);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-khula);
+}
+.avukatOtomasyonGrevler,
+.content,
+.mainContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.content {
+  width: 1881px;
+  height: 980px;
+  flex-direction: row;
+  padding: 0 0 var(--padding-42xl);
+  gap: var(--gap-22xl);
+  max-width: 100%;
+}
+.avukatOtomasyonGrevler {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 var(--padding-2xs) 0 0;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .mainContent {
+    max-width: 100%;
+  }
+  .content {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .taskHeader {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-50xl);
+    box-sizing: border-box;
+  }
+  .mainContent {
+    padding-top: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 725px) {
+  .taskHeader {
+    gap: var(--gap-6xl);
+  }
+  .content {
+    gap: var(--gap-xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .grevler {
+    font-size: var(--font-size-lgi);
+  }
+  .taskHeader {
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+  .mainContent {
+    padding-top: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .content {
+    height: auto;
+  }
+}

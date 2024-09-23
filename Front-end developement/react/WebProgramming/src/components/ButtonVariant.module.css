@@ -1,0 +1,53 @@
+.plusBackground {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-blue);
+}
+.davaOlutur,
+.plus1Icon {
+  position: relative;
+  z-index: 1;
+}
+.plus1Icon {
+  height: 25px;
+  width: 25px;
+  object-fit: contain;
+  min-height: 25px;
+}
+.davaOlutur {
+  text-decoration: none;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 102px;
+  white-space: nowrap;
+}
+.buttonvariant3,
+.davaOluturWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.buttonvariant3 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-mini) var(--padding-xl) var(--padding-3xs)
+    var(--padding-lgi);
+  position: relative;
+  gap: var(--gap-xl);
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

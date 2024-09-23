@@ -1,0 +1,525 @@
+.frameChild,
+.ksacaIrketimiz {
+  position: relative;
+  max-width: 100%;
+}
+.frameChild {
+  width: 1400px;
+  height: 500px;
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.ksacaIrketimiz {
+  margin: 0;
+  width: 406.8px;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.laboreEtDolore,
+.loremIpsumDolor {
+  display: block;
+}
+.loremIpsumDolorContainer1 {
+  width: 100%;
+}
+.loremIpsumDolorContainer {
+  margin: 0;
+  width: 660px;
+  height: 78.4px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: var(--color-gainsboro);
+  padding: var(--padding-98xl-2) var(--padding-xl) var(--padding-162xl-5)
+    var(--padding-5xl);
+  gap: var(--gap-50xl-5);
+}
+.frameWrapper {
+  flex: 1;
+  padding: 0 0 var(--padding-83xl);
+  min-height: 602px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-khula);
+}
+.rghtChild {
+  height: 752px;
+  width: 700px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.whatLawProfessionalsShouldIcon {
+  height: 454px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-11xl);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.whatLawProfessionalsShouldWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-6xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.placeholderRectIcon {
+  width: 131px;
+  height: 140px;
+  position: relative;
+  border-radius: var(--br-xl);
+  object-fit: cover;
+  z-index: 1;
+}
+.aboutImageContainer,
+.aboutImageContainerWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.aboutImageContainer {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-37xl);
+}
+.aboutImageContainerWrapper {
+  height: 692px;
+  width: 388px;
+  align-items: flex-start;
+  min-width: 388px;
+}
+.aboutImageRect,
+.aboutImageRect1 {
+  flex: 1;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.aboutImageRect {
+  width: 197px;
+  border-radius: var(--br-11xl);
+  max-height: 100%;
+}
+.aboutImageRect1 {
+  height: 224px;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+}
+.aboutImageRectParent,
+.aboutImageRectWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aboutImageRectWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-7xl);
+}
+.aboutImageRectParent {
+  height: 607px;
+  width: 223px;
+  flex-direction: column;
+  gap: var(--gap-31xl);
+  min-width: 223px;
+}
+.frameGroup,
+.rght {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rght {
+  width: 700px;
+  padding: 0 var(--padding-11xs) var(--padding-41xl);
+  box-sizing: border-box;
+  gap: var(--gap-49xl);
+  z-index: 1;
+  margin-left: -700px;
+}
+.frameGroup {
+  align-self: stretch;
+}
+.ekibimiz {
+  margin: 0;
+  width: 310px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.laboreEtDolore1,
+.loremIpsumDolor1 {
+  display: block;
+}
+.loremIpsumDolorContainer2 {
+  margin: 0;
+  align-self: stretch;
+  height: 93.4px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.background,
+.heding {
+  background-color: var(--color-white);
+  max-width: 100%;
+}
+.heding {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 var(--padding-smi-1);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.background {
+  height: 672px;
+  width: 1386px;
+  position: relative;
+  display: none;
+}
+.memberImageIcon,
+.saulGoodman {
+  position: relative;
+  flex-shrink: 0;
+}
+.memberImageIcon {
+  width: 300px;
+  height: 171.8px;
+  object-fit: cover;
+}
+.saulGoodman {
+  margin: 0;
+  height: 48px;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+  font-family: inherit;
+}
+.ekipcard1,
+.saulGoodman,
+.sueemNow {
+  display: flex;
+  align-items: center;
+}
+.sueemNow {
+  align-self: stretch;
+  height: 168.7px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.05em;
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+  text-align: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transform: rotate(0.6deg);
+}
+.ekipcard1 {
+  height: 400px;
+  width: 400px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+.images11 {
+  width: 186px;
+  height: 196px;
+  position: relative;
+  object-fit: cover;
+}
+.testtesttesttesttesttesttestte,
+.ticaretHukuku {
+  position: relative;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+}
+.ticaretHukuku {
+  height: 48px;
+  font-weight: 800;
+}
+.testtesttesttesttesttesttestte {
+  margin: 0;
+  align-self: stretch;
+  height: 168.7px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+  text-align: center;
+  justify-content: center;
+  flex-shrink: 0;
+  max-height: 168.7px;
+  word-break: break-word;
+}
+.ekipcard2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+.chuckMcgillInfobox1Icon {
+  width: 172px;
+  height: 180px;
+  position: relative;
+  object-fit: cover;
+}
+.hukukundaIiIverenIlikis,
+.yalKurtChuck {
+  margin: 0;
+  position: relative;
+  letter-spacing: 0.05em;
+}
+.yalKurtChuck {
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+}
+.hukukundaIiIverenIlikis {
+  align-self: stretch;
+  height: 168.7px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.ekipcard3 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+.ekiprow1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.backgroundParent,
+.ekipcontainer,
+.ekiprow1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.ekipcontainer {
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 439px;
+  z-index: 1;
+}
+.backgroundParent {
+  align-self: stretch;
+  background-color: var(--color-white);
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: var(--padding-57xl-9) 0 var(--padding-58xl);
+  box-sizing: border-box;
+  min-height: 672px;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray);
+}
+.hedingParent {
+  width: 1386.1px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent,
+.hedingParent,
+.landingPageInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1400px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-54xl);
+}
+.landingPageInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-7xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-khula);
+}
+@media screen and (max-width: 1350px) {
+  .ekiprow1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .ekiprow1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .ksacaIrketimiz {
+    font-size: var(--font-size-13xl);
+  }
+  .rght {
+    flex-wrap: wrap;
+    gap: var(--gap-15xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .ekibimiz {
+    font-size: var(--font-size-13xl);
+  }
+  .saulGoodman,
+  .ticaretHukuku,
+  .yalKurtChuck {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .ksacaIrketimiz {
+    font-size: var(--font-size-13xl);
+  }
+  .rectangleParent {
+    gap: var(--gap-16xl);
+    padding-top: var(--padding-57xl);
+    padding-bottom: var(--padding-99xl);
+    box-sizing: border-box;
+  }
+  .frameWrapper {
+    padding-bottom: var(--padding-47xl);
+    box-sizing: border-box;
+  }
+  .aboutImageContainerWrapper {
+    flex: 1;
+    min-width: 100%;
+  }
+  .aboutImageRectParent {
+    flex: 1;
+  }
+  .rght {
+    flex-wrap: wrap;
+    gap: var(--gap-15xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .ekibimiz {
+    font-size: var(--font-size-13xl);
+  }
+  .saulGoodman,
+  .ticaretHukuku,
+  .yalKurtChuck {
+    font-size: var(--font-size-5xl);
+  }
+  .backgroundParent {
+    padding-top: var(--padding-31xl);
+    padding-bottom: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: var(--gap-17xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ksacaIrketimiz {
+    font-size: var(--font-size-5xl);
+  }
+  .loremIpsumDolorContainer {
+    font-size: var(--font-size-base);
+  }
+  .rectangleParent {
+    gap: var(--gap-mid);
+  }
+  .aboutImageContainer {
+    gap: var(--gap-9xl);
+  }
+  .rght {
+    gap: var(--gap-mid);
+  }
+  .ekibimiz {
+    font-size: var(--font-size-5xl);
+  }
+  .loremIpsumDolorContainer2 {
+    font-size: var(--font-size-base);
+  }
+  .saulGoodman {
+    font-size: var(--font-size-lg);
+  }
+  .sueemNow {
+    font-size: var(--font-size-base);
+  }
+  .ticaretHukuku {
+    font-size: var(--font-size-lg);
+  }
+  .testtesttesttesttesttesttestte {
+    font-size: var(--font-size-base);
+  }
+  .yalKurtChuck {
+    font-size: var(--font-size-lg);
+  }
+  .hukukundaIiIverenIlikis {
+    font-size: var(--font-size-base);
+  }
+  .frameParent {
+    gap: var(--gap-lg);
+  }
+}

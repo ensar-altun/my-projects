@@ -1,0 +1,211 @@
+.home1Icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: contain;
+}
+.anasayfa {
+  text-decoration: none;
+  height: 42px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 800;
+  font-family: var(--font-khula);
+  color: var(--color-dimgray);
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+}
+.anasayfaButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-74xl) var(--padding-smi) 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.anasayfaButton:hover,
+.davalarButton:hover,
+.dosyalarButton:hover,
+.kButton:hover,
+.mvekillerButton:hover {
+  background-color: var(--color-gainsboro-100);
+}
+.home1Icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: contain;
+}
+.davalar {
+  text-decoration: none;
+  height: 42px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 800;
+  font-family: var(--font-khula);
+  color: var(--color-dimgray);
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+}
+.davalarButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-74xl) var(--padding-smi) 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.home1Icon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: contain;
+}
+.dosyolar {
+  height: 42px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 800;
+  font-family: var(--font-khula);
+  color: var(--color-dimgray);
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+}
+.dosyalarButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-74xl) var(--padding-smi) 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.home1Icon3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: contain;
+}
+.mvekkiller {
+  height: 39px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 800;
+  font-family: var(--font-khula);
+  color: var(--color-dimgray);
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+  min-width: 113px;
+}
+.mvekillerButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini-5) var(--padding-56xl) var(--padding-mini-5) 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.home1Icon4,
+.k {
+  position: relative;
+}
+.home1Icon4 {
+  height: 24px;
+  width: 24px;
+  object-fit: contain;
+}
+.k {
+  height: 42px;
+  flex: 1;
+  font-size: var(--font-size-lg);
+  font-weight: 800;
+  font-family: var(--font-khula);
+  color: var(--color-dimgray);
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+}
+.container,
+.kButton {
+  align-self: stretch;
+  align-items: center;
+}
+.kButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-74xl) var(--padding-smi) 0;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.container {
+  flex: 1;
+  padding: 0;
+  gap: var(--gap-xl);
+}
+.container,
+.main,
+.sde {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.sde {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--color-white);
+  align-items: center;
+  padding: var(--padding-81xl) var(--padding-18xl) var(--padding-84xl);
+}
+.main {
+  height: 1003px;
+  width: 338px;
+  align-items: flex-start;
+  padding: 0 var(--padding-19xl) 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 1562px);
+}
+@media screen and (max-width: 1700px) {
+  .main {
+    display: none;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1325px) {
+  .sde {
+    padding-top: var(--padding-46xl);
+    padding-bottom: var(--padding-48xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .sde {
+    padding-top: var(--padding-23xl);
+    padding-bottom: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+}

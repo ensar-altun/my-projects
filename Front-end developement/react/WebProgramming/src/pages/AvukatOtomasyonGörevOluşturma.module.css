@@ -1,0 +1,391 @@
+.grevBal {
+  position: relative;
+  font-weight: 800;
+}
+.headerLabels {
+  margin-top: -55px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) var(--padding-7xs) var(--padding-xl);
+}
+.headerLabelsChild {
+  width: 1344px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  max-width: 100%;
+}
+.headerLabels1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 14px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild {
+  height: 50px;
+  width: 1527px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.oluturan {
+  height: 46px;
+  width: 140px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.baturayTarafndan26,
+.oluturan {
+  position: relative;
+  z-index: 1;
+}
+.attributeValues {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.frameItem,
+.rectangleParent {
+  background-color: var(--color-white);
+  max-width: 100%;
+}
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-2xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-114xl);
+}
+.frameItem {
+  height: 50px;
+  width: 1527px;
+  position: relative;
+  display: none;
+}
+.ahmetYlmaz,
+.atanan {
+  position: relative;
+  z-index: 1;
+}
+.atanan {
+  height: 46px;
+  width: 140px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.ahmetYlmaz {
+  display: inline-block;
+  min-width: 98px;
+}
+.ahmetYlmazWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.frameInner,
+.rectangleGroup {
+  background-color: var(--color-white);
+  max-width: 100%;
+}
+.rectangleGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-2xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-114xl);
+}
+.frameInner {
+  height: 50px;
+  width: 1527px;
+  position: relative;
+  display: none;
+}
+.tamamlanmaTarihi {
+  position: relative;
+  font-weight: 800;
+  z-index: 1;
+}
+.mays2024 {
+  position: relative;
+  display: inline-block;
+  min-width: 106px;
+  z-index: 1;
+}
+.mays2024Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.rectangleContainer,
+.rectangleDiv {
+  background-color: var(--color-white);
+  max-width: 100%;
+}
+.rectangleContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-6xs) var(--padding-12xs);
+  box-sizing: border-box;
+  gap: 41.2px;
+}
+.rectangleDiv {
+  height: 50px;
+  width: 1527px;
+  position: relative;
+  display: none;
+}
+.not {
+  height: 46px;
+  width: 140px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.baturayTarafndan261,
+.not {
+  position: relative;
+  z-index: 1;
+}
+.baturayTarafndan26Mays20Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.groupDiv {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-2xs) 0;
+  gap: var(--gap-114xl);
+}
+.groupDiv,
+.taskDetails,
+.taskInformation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.taskInformation {
+  height: 207px;
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-12xs) var(--padding-28xl) 0;
+  gap: 5px;
+}
+.taskDetails {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-10xs) 0 var(--padding-11xs);
+}
+.headerLabelsItem {
+  width: 1344px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  max-width: 100%;
+}
+.headerLabels2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) var(--padding-9xs) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.grevTanm {
+  position: relative;
+  font-weight: 800;
+}
+.headerLabels3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) var(--padding-9xs) var(--padding-xl);
+}
+.divider,
+.taskHeader {
+  align-self: stretch;
+  background-color: var(--color-white);
+}
+.divider {
+  height: 492px;
+  position: relative;
+  flex-shrink: 0;
+}
+.taskHeader {
+  height: 862px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-30xl) var(--padding-10xs) var(--padding-8xs);
+  box-sizing: border-box;
+  gap: 10px;
+  max-width: 100%;
+}
+.mainPanel {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-38xl) 0 0;
+  max-width: calc(100% - 341px);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-khula);
+}
+.avukatOtomasyonGrev,
+.content,
+.mainPanel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.content {
+  width: 1881px;
+  height: 980px;
+  flex-direction: row;
+  padding: 0 0 var(--padding-42xl);
+  gap: var(--gap-22xl);
+  max-width: 100%;
+}
+.avukatOtomasyonGrev {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 var(--padding-2xs) 0 0;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .mainPanel {
+    max-width: 100%;
+  }
+  .content {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .taskHeader {
+    padding-top: var(--padding-13xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .mainPanel {
+    padding-top: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 725px) {
+  .groupDiv,
+  .rectangleParent {
+    flex-wrap: wrap;
+    gap: var(--gap-47xl);
+  }
+  .content,
+  .taskHeader,
+  .taskInformation {
+    height: auto;
+  }
+  .content {
+    gap: var(--gap-xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .grevBal,
+  .oluturan {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangleParent {
+    gap: var(--gap-14xl);
+  }
+  .atanan {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangleGroup {
+    flex-wrap: wrap;
+    gap: var(--gap-47xl);
+  }
+  .tamamlanmaTarihi {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangleContainer {
+    flex-wrap: wrap;
+    gap: var(--gap-2xl);
+  }
+  .not {
+    font-size: var(--font-size-lgi);
+  }
+  .groupDiv {
+    gap: var(--gap-14xl);
+  }
+  .grevTanm {
+    font-size: var(--font-size-lgi);
+  }
+  .mainPanel,
+  .taskHeader {
+    padding-top: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .mainPanel {
+    padding-top: var(--padding-5xl);
+  }
+}

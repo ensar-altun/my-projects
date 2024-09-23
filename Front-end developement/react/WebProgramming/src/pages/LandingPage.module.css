@@ -1,0 +1,929 @@
+.sectionBackgroundIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.groupBackground,
+.rigtSectionIcon {
+  position: absolute;
+  top: 0;
+  left: 745px;
+  width: 907px;
+  height: 721px;
+}
+
+.groupBackground {
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke);
+}
+
+.herkesInAdalet {
+  margin: 0;
+  width: 466px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  white-space: pre-wrap;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.welcomeContentRect {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke);
+}
+
+.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,
+.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa1,
+.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa2,
+.uzmanKadromuzBla {
+  display: block;
+}
+
+.uzmanKadromuzBlaContainer {
+  margin: 0;
+  height: 76px;
+  position: relative;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.welcomeContentRectParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-7xl) var(--padding-lg) 0;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 146px;
+  z-index: 1;
+}
+
+.welcomeButtonRect {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-blue);
+}
+
+.button1 {
+  position: relative;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 129px;
+  z-index: 1;
+}
+
+.button,
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.button {
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-16xl) 16px var(--padding-17xl);
+  position: relative;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.buttonWrapper {
+  width: 494px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-top: -17px;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.frameParent,
+.leftSection,
+.leftSectionInner {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.frameParent {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.leftSection,
+.leftSectionInner {
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.leftSectionInner {
+  flex-direction: row;
+  padding: 0 var(--padding-7xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+}
+
+.leftSection {
+  position: absolute;
+  width: 44.43%;
+  top: calc(50% - 211px);
+  right: 55.57%;
+  left: 0;
+  flex-direction: column;
+  padding: var(--padding-24xl) var(--padding-6xs) var(--padding-46xl);
+  gap: var(--gap-3xl);
+  z-index: 1;
+}
+
+.welcomesection {
+  align-self: stretch;
+  height: 760px;
+  position: relative;
+  max-width: 100%;
+}
+
+.navigationParent {
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.frameChild,
+.landingPageInner {
+  align-self: stretch;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.landingPageInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 88.9px var(--padding-7xl);
+  text-align: center;
+  font-size: 50px;
+  color: var(--color-black);
+  font-family: var(--font-khula);
+}
+
+.frameChild {
+  flex: 1;
+  position: relative;
+  border-top: 10px solid var(--color-black);
+}
+
+.custoemrlogo2Icon,
+.customerlogo1Icon,
+.customerlogo3Icon,
+.customerlogo4Icon {
+  align-self: stretch;
+  width: 297px;
+  position: relative;
+  max-height: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 200px;
+}
+
+.custoemrlogo2Icon,
+.customerlogo3Icon,
+.customerlogo4Icon {
+  width: 307.4px;
+}
+
+.customerlogo3Icon,
+.customerlogo4Icon {
+  width: 292.9px;
+}
+
+.customerlogo4Icon {
+  width: 332.8px;
+}
+
+.customerlogosection,
+.lineParent {
+  align-self: stretch;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.customerlogosection {
+  margin-right: -9px;
+  background-color: var(--color-whitesmoke);
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 128px;
+  gap: var(--gap-xl);
+}
+
+.lineParent {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 177.9px var(--padding-12xs);
+  gap: 110px;
+}
+
+.hedingChild {
+  align-self: stretch;
+  height: 232.3px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+}
+
+.hizmetlerimiz {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+  z-index: 1;
+}
+
+.laboreEtDolore,
+.loremIpsumDolor {
+  display: block;
+}
+
+.loremIpsumDolorContainer {
+  margin: 0;
+  height: 105.2px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.loremIpsumDolorSitAmetCoWrapper {
+  width: 933px;
+  height: 100.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+}
+
+.background,
+.heding {
+  background-color: var(--color-white);
+  max-width: 100%;
+}
+
+.heding {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 13.1px 0 13.2px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.background {
+  height: 1176.8px;
+  width: 1400px;
+  position: relative;
+  display: none;
+}
+
+.family1Icon {
+  width: 157.8px;
+  height: 156.6px;
+  position: relative;
+  object-fit: contain;
+}
+
+.aileHukuku,
+.aileHukukuToplumu {
+  position: relative;
+  letter-spacing: 0.05em;
+}
+
+.aileHukuku {
+  font-weight: 800;
+}
+
+.aileHukukuToplumu {
+  margin: 0;
+  align-self: stretch;
+  height: 168.7px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transform: rotate(0.6deg);
+}
+
+.hizmetlercard11 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+
+.trading1Icon {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  object-fit: contain;
+}
+
+.ticaretHukuku,
+.trkiyedeVeYurt {
+  position: relative;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+}
+
+.ticaretHukuku {
+  height: 48px;
+  font-weight: 800;
+}
+
+.trkiyedeVeYurt {
+  margin: 0;
+  align-self: stretch;
+  height: 168.7px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+  text-align: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.hizmetlercard12 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+
+.employees1Icon {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  object-fit: contain;
+}
+
+.hukuku,
+.hukukundaIiIverenIlikis {
+  position: relative;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+}
+
+.hukuku {
+  width: 197.5px;
+  font-weight: 800;
+}
+
+.hukukundaIiIverenIlikis {
+  margin: 0;
+  align-self: stretch;
+  height: 168.7px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+  text-align: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.hizmetlercard13 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+
+.goverment1Icon {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  object-fit: contain;
+}
+
+.dareHukuku,
+.uygulamaEsnasndaVatandan {
+  position: relative;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+}
+
+.dareHukuku {
+  height: 48px;
+  font-weight: 800;
+}
+
+.uygulamaEsnasndaVatandan {
+  margin: 0;
+  align-self: stretch;
+  height: 168.7px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+  text-align: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.hizmetlercard21 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+
+.house1Icon {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  object-fit: contain;
+}
+
+.gayrimenkulHukuku,
+.tanmazMallarnAlm {
+  position: relative;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+}
+
+.gayrimenkulHukuku {
+  height: 48px;
+  font-weight: 800;
+  max-width: 100%;
+}
+
+.tanmazMallarnAlm {
+  margin: 0;
+  align-self: stretch;
+  height: 168.7px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+  text-align: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.hizmetlercard22 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+
+.checklist1Icon {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  object-fit: contain;
+}
+
+.mirasHukuku,
+.mirasHukukuKiinin {
+  position: relative;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+}
+
+.mirasHukuku {
+  height: 48px;
+  font-weight: 800;
+}
+
+.mirasHukukuKiinin {
+  margin: 0;
+  align-self: stretch;
+  height: 168.7px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+  text-align: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.hizmetlercard23 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+
+.hizmetlercontainer,
+.testimonialSlider {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.hizmetlercontainer {
+  width: 1342px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 31px 69px;
+  min-height: 824px;
+  z-index: 1;
+}
+
+.testimonialSlider {
+  align-self: stretch;
+  background-color: var(--color-white);
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: var(--padding-33xl) var(--padding-mini) 52.3px;
+  box-sizing: border-box;
+  min-height: 1177px;
+  margin-top: -209.1px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray);
+}
+
+.hedingParent,
+.landingPageChild {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.hedingParent {
+  width: 1400px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.landingPageChild {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 113.9px var(--padding-7xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-khula);
+}
+
+.footerChild {
+  height: 200px;
+  width: 1920px;
+  position: relative;
+  background-color: var(--color-midnightblue);
+  display: none;
+  max-width: 100%;
+}
+
+.logoIcon {
+  height: 60px;
+  width: 118.9px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.footer {
+  width: 1920px;
+  background-color: var(--color-midnightblue);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-51xl) 204px;
+  max-width: 101%;
+  flex-shrink: 0;
+}
+
+.footer,
+.footerWrapper,
+.landingPage {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.footerWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.landingPage {
+  width: 100%;
+  position: relative;
+  background-color: #fefefe;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 51px 0 0;
+  gap: 100.1px;
+  min-height: 4900px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1350px) {
+  .customerlogosection {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1275px) {
+  .landingPageChild {
+    padding-bottom: 74px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .customerlogosection {
+    padding-left: 78px;
+    padding-right: var(--padding-36xl);
+    box-sizing: border-box;
+  }
+
+  .landingPage {
+    gap: var(--gap-36xl);
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .landingPageInner {
+    padding-bottom: var(--padding-39xl);
+    box-sizing: border-box;
+  }
+
+  .customerlogosection {
+    padding-left: var(--padding-45xl);
+    padding-right: var(--padding-45xl);
+    box-sizing: border-box;
+  }
+
+  .lineParent {
+    gap: var(--gap-36xl);
+  }
+
+  .testimonialSlider {
+    padding-top: var(--padding-33xl);
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+
+  .landingPage {
+    gap: var(--gap-31xl);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .herkesInAdalet {
+    font-size: var(--font-size-21xl);
+  }
+
+  .customerlogosection {
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+
+  .hizmetlerimiz {
+    font-size: var(--font-size-13xl);
+  }
+
+  .heding {
+    gap: var(--gap-lg);
+  }
+
+  .aileHukuku,
+  .dareHukuku,
+  .gayrimenkulHukuku,
+  .hukuku,
+  .mirasHukuku,
+  .ticaretHukuku {
+    font-size: var(--font-size-5xl);
+  }
+
+  .hizmetlercontainer {
+    gap: var(--gap-15xl);
+  }
+
+  .footerWrapper {
+    padding-bottom: var(--padding-47xl);
+    box-sizing: border-box;
+  }
+
+  .landingPage {
+    gap: var(--gap-8xl);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .herkesInAdalet {
+    font-size: var(--font-size-21xl);
+  }
+
+  .customerlogosection {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+
+  .lineParent {
+    gap: var(--gap-8xl);
+    padding-bottom: 116px;
+    box-sizing: border-box;
+  }
+
+  .hizmetlerimiz {
+    font-size: var(--font-size-13xl);
+  }
+
+  .aileHukuku,
+  .dareHukuku,
+  .gayrimenkulHukuku,
+  .hukuku,
+  .mirasHukuku,
+  .ticaretHukuku {
+    font-size: var(--font-size-5xl);
+  }
+
+  .hizmetlercontainer {
+    gap: var(--gap-15xl);
+  }
+
+  .landingPageChild {
+    padding-bottom: var(--padding-29xl);
+    box-sizing: border-box;
+  }
+
+  .footer {
+    padding-left: var(--padding-83xl);
+    padding-right: var(--padding-83xl);
+    box-sizing: border-box;
+  }
+
+  .landingPage {
+    gap: var(--gap-6xl);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .herkesInAdalet {
+    font-size: var(--font-size-11xl);
+  }
+
+  .landingPageInner {
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+
+  .hizmetlerimiz {
+    font-size: var(--font-size-5xl);
+  }
+
+  .loremIpsumDolorContainer {
+    font-size: var(--font-size-base);
+  }
+
+  .aileHukuku {
+    font-size: var(--font-size-lg);
+  }
+
+  .aileHukukuToplumu {
+    font-size: var(--font-size-base);
+  }
+
+  .ticaretHukuku {
+    font-size: var(--font-size-lg);
+  }
+
+  .trkiyedeVeYurt {
+    font-size: var(--font-size-base);
+  }
+
+  .hukuku {
+    font-size: var(--font-size-lg);
+  }
+
+  .hukukundaIiIverenIlikis {
+    font-size: var(--font-size-base);
+  }
+
+  .dareHukuku {
+    font-size: var(--font-size-lg);
+  }
+
+  .uygulamaEsnasndaVatandan {
+    font-size: var(--font-size-base);
+  }
+
+  .gayrimenkulHukuku {
+    font-size: var(--font-size-lg);
+  }
+
+  .tanmazMallarnAlm {
+    font-size: var(--font-size-base);
+  }
+
+  .mirasHukuku {
+    font-size: var(--font-size-lg);
+  }
+
+  .mirasHukukuKiinin {
+    font-size: var(--font-size-base);
+  }
+
+  .hizmetlercontainer {
+    gap: var(--gap-mid);
+  }
+
+  .testimonialSlider {
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+
+  .footer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

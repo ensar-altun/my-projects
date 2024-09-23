@@ -1,0 +1,161 @@
+.sectionLogoIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.sectionLogoWrapper {
+  height: 885px;
+  width: 473px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) 0 0;
+  box-sizing: border-box;
+  min-width: 473px;
+  max-width: 100%;
+}
+.credentials,
+.kullancAd {
+  position: relative;
+}
+.credentials {
+  border: 0;
+  outline: 0;
+  background-color: #ececec;
+  align-self: stretch;
+  height: 100px;
+  min-width: 250px;
+}
+.ifre {
+  position: relative;
+  display: inline-block;
+  min-width: 70px;
+}
+.credentials1 {
+  border: 0;
+  outline: 0;
+  background-color: #ebebeb;
+  align-self: stretch;
+  height: 100px;
+  position: relative;
+  min-width: 250px;
+}
+.loginbutton,
+.registerbutton {
+  width: 241px;
+  height: 77px;
+  cursor: pointer;
+}
+.loginbutton:hover {
+  background-color: #5e91e6;
+}
+.buttoncontainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-45xl);
+  gap: var(--gap-xl);
+}
+.authContainer,
+.loginpage {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.authContainer {
+  width: 840px;
+  background-color: #eee;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 123px var(--padding-51xl);
+  gap: 64px;
+  min-width: 840px;
+  max-width: 100%;
+}
+.loginpage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 115px var(--padding-61xl) var(--padding-61xl) 289px;
+  line-height: normal;
+  letter-spacing: normal;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1700px) {
+  .sectionLogoIcon {
+    align-self: stretch;
+    width: auto;
+  }
+  .authContainer,
+  .sectionLogoWrapper {
+    flex: 1;
+  }
+  .loginpage {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1325px) {
+  .authContainer {
+    min-width: 100%;
+  }
+  .loginpage {
+    padding-left: 144px;
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .sectionLogoWrapper {
+    min-width: 100%;
+  }
+  .ifre,
+  .kullancAd {
+    font-size: var(--font-size-7xl);
+  }
+  .buttoncontainer {
+    flex-wrap: wrap;
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .authContainer {
+    gap: 32px;
+    padding: var(--padding-61xl) var(--padding-16xl);
+    box-sizing: border-box;
+  }
+  .loginpage {
+    padding-left: 72px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ifre,
+  .kullancAd {
+    font-size: var(--font-size-lgi);
+  }
+  .loginbutton {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .authContainer {
+    gap: var(--gap-base);
+    padding-top: var(--padding-33xl);
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}

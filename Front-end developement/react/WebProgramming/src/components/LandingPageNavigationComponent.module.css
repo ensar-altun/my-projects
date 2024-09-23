@@ -1,0 +1,280 @@
+.navigationContainer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.logoIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.logoWrapper {
+  height: 65px;
+  width: 118.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.containerIcon,
+.navLinkBoundingRect {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.navLinkBoundingRect {
+  height: 100%;
+  bottom: 0;
+  background-color: var(--color-gray-100);
+}
+.containerIcon {
+  height: 24px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 53px;
+  z-index: 1;
+}
+.textWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xs) 0 var(--padding-4xs);
+}
+.navigationLink,
+.navigationLinkChild {
+  box-sizing: border-box;
+  position: relative;
+}
+.navigationLinkChild {
+  width: 73px;
+  height: 3px;
+  border-top: 3px solid var(--color-blue);
+  flex-shrink: 0;
+}
+.navigationLink {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 var(--padding-2xl);
+  gap: var(--gap-xl-5);
+  z-index: 1;
+  color: var(--color-blueviolet);
+}
+.containerIcon1 {
+  position: absolute;
+  height: 60%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 40%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.text1 {
+  text-decoration: none;
+  position: absolute;
+  top: 4px;
+  left: calc(50% - 39px);
+  color: inherit;
+  display: inline-block;
+  min-width: 78px;
+  z-index: 1;
+}
+.navigationLink1 {
+  height: 40px;
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.containerIcon2 {
+  position: absolute;
+  height: 60%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 40%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.text2 {
+  text-decoration: none;
+  position: absolute;
+  top: 4px;
+  left: calc(50% - 21px);
+  color: inherit;
+  display: inline-block;
+  width: 42px;
+  height: 15px;
+  z-index: 1;
+}
+.navigationLink2 {
+  height: 40px;
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.containerIcon3 {
+  position: absolute;
+  height: 60%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 40%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.text3 {
+  text-decoration: none;
+  position: absolute;
+  top: 4px;
+  left: calc(50% - 21px);
+  color: inherit;
+  display: inline-block;
+  width: 42px;
+  height: 15px;
+  min-width: 42px;
+  z-index: 1;
+}
+.navigationLink3 {
+  height: 40px;
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.navLinkBoundingRectParent {
+  width: 552px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-29xl) var(--padding-2xs)
+    var(--padding-70xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-26xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.containerIcon4 {
+  position: absolute;
+  height: 60%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 40%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.text4 {
+  text-decoration: none;
+  position: absolute;
+  top: 4px;
+  left: calc(50% - 21px);
+  color: inherit;
+  display: inline-block;
+  width: 42px;
+  height: 15px;
+  z-index: 1;
+}
+.loginLink {
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+  z-index: 1;
+}
+.loginLinkWrapper,
+.navigation {
+  display: flex;
+  box-sizing: border-box;
+}
+.loginLinkWrapper {
+  width: 70px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-2xs);
+}
+.navigation {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-8xs) var(--padding-26xl) var(--padding-8xs) 0;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .navigation {
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .navigation {
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .navLinkBoundingRectParent {
+    gap: var(--gap-3xl);
+    padding-left: var(--padding-25xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navLinkBoundingRectParent {
+    gap: var(--gap-3xl);
+    padding-left: var(--padding-25xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navLinkBoundingRectParent {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

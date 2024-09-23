@@ -1,0 +1,52 @@
+.caseItemBackground {
+  width: 34px;
+  height: 36px;
+  position: relative;
+  background-color: var(--color-white);
+  border: 5px solid var(--color-plum);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.caseItems {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi-5) 0 0;
+}
+.davaBal {
+  position: relative;
+  font-weight: 800;
+  cursor: pointer;
+}
+.grevlergrevlergrevlergrevl {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 300;
+  color: var(--color-black);
+}
+.caseItemContent,
+.caseList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.caseList {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-khula);
+}
+@media screen and (max-width: 450px) {
+  .davaBal {
+    font-size: var(--font-size-lgi);
+  }
+  .caseList {
+    flex-wrap: wrap;
+  }
+}
